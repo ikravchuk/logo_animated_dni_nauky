@@ -12,5 +12,13 @@ svg #phage {
 }
 svg #logo_text {
     fill: #07b2de;
-    fill-opacity: 1;
+    animation: appear 0.5s ease forwards;
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
