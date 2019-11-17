@@ -1,8 +1,6 @@
-*{
-margin:0;
-padding:0;
-}
 svg {
+    display: block;
+    margin: auto;
     width: 75%;
 }
 svg #flask {
@@ -14,7 +12,7 @@ svg #flask {
 svg #atom {
     fill: #7c7c7c;
     fill-opacity: 0;
-    transform-origin: 55% 45%;
+    transform-origin: 57% 33%;
     animation: atom 3.2s forwards;
     animation-delay: 1.8s;
 }
@@ -71,7 +69,7 @@ svg #logo_text {
         transform: scale(0.3)  translateY(-50px) scaleY(0.85);
     }
     75%{
-        transform: scale(0.4) rotate(5deg) translateY(-400px);
+        transform: scale(0.4) rotate(5deg) translateY(-300px);
     }
     95%{
         transform: scale(1);
