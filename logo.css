@@ -3,19 +3,24 @@ margin:0;
 padding:0;
 }
 svg #flask {
-    fill: #fe7f7f;
+    fill: #7c7c7c;
     fill-opacity: 1;
+    animation: flask 2s forwards;
+    animation-delay: 5s;
 }
 svg #atom {
-    fill: #fe9854; 
+    fill: #7c7c7c;
     fill-opacity: 0;
     transform-origin: 55% 45%;
-    animation: atom 2s linear;
+    animation: atom 3.2s forwards;
     animation-delay: 1.8s;
 }
 svg #phage {
-    fill: #a9dd87;
+    fill: #7c7c7c;
     fill-opacity: 0;
+    transform-origin: 85% 45%;
+    animation: phage 3s forwards;
+    animation-delay: 2s;
 }
 svg #logo_text {
     fill: #07b2de;
@@ -23,15 +28,44 @@ svg #logo_text {
     animation: appear 0.5s ease forwards;
     animation-delay: 5s;
 }
+@keyframes flask {
+    from{
+        fill: #fe7f7f;
+    }
+    to{
+        fill: #fe7f7f;
+    }
+}
 
 @keyframes atom {
-    from{
+    0%{
         transform: rotate(0deg);
         fill-opacity: 0;
     }
-    to{
+    95%{
         transform: rotate(360deg);
+        fill: #7c7c7c;
         fill-opacity: 1;
+    }
+    100%{
+        fill-opacity: 1;
+        fill: #fe9854; 
+        
+    }
+}
+@keyframes phage {
+    0%{
+        transform: scale(0);
+        fill-opacity: 0;
+    }
+    95%{
+        transform: scale(1);
+        fill: #7c7c7c;
+        fill-opacity: 1;
+    }
+    100%{
+        fill-opacity: 1;
+        fill: #a9dd87;
     }
 }
 @keyframes appear {
