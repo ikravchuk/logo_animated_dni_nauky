@@ -1,4 +1,3 @@
-![Alt text](./logo_dni_nauky_animated_plain.svg)
 <img src="./logo_dni_nauky_animated_plain.svg">
 
 # logo_animated_dni_nauky
