@@ -1,3 +1,6 @@
+![Alt text](./logo_dni_nauky_animated_plain.svg)
+<img src="./logo_dni_nauky_animated_plain.svg">
+
 # logo_animated_dni_nauky
 Animated logo for Dni Nauky (Days of Science) project in Ukraine. http://dni-nauky.in.ua/
 
